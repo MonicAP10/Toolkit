@@ -1,4 +1,3 @@
-# TOOLKIT
 Toolkit es una biblioteca de Python diseñada para el procesamiento y modificación de datos emocionales. Proporciona diversas funciones para manipular y analizar emociones representadas como diccionarios de Python.
 
 Estructura de Carpetas

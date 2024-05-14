@@ -13,12 +13,13 @@
   
   venv: Carpeta virtual de entorno Python donde se instalan los paquetes y dependencias.
   
-  **Descripción de Archivos**
+  # **Descripción de Archivos**
   
-  main.py: Contiene las funciones principales de Toolkit para modificar y analizar emociones. Cada función tiene una descripción de su entrada y salida en el código fuente.
-  tests_lambda.py: Archivo que incluye pruebas unitarias para las funciones en main.py, asegurando su correcto funcionamiento en diferentes escenarios.
-  __init__.py: Archivo que señala que tests es un paquete de Python, permitiendo la importación de sus funciones en otros archivos.
-  **Funciones Principales**
+    main.py: Contiene las funciones principales de Toolkit para modificar y analizar emociones. Cada función tiene una descripción de su entrada y salida en el código fuente.
+    tests_lambda.py: Archivo que incluye pruebas unitarias para las funciones en main.py, asegurando su correcto funcionamiento en diferentes escenarios.
+    __init__.py: Archivo que señala que tests es un paquete de Python, permitiendo la importación de sus funciones en otros archivos.
+  
+  # **Funciones Principales**
   A continuación se describen las funciones principales de Toolkit junto con sus entradas y salidas:
   
   **validate_emotion_value(value)**
@@ -26,7 +27,7 @@
       - Salida: Ninguna.
       - Descripción: Valida que el valor de la emoción esté dentro del rango permitido [-1, 1].
   
-  **modify_emotions(**positive_emotions, negative_emotions, to_modify, percentage, increase=True)
+ **modify_emotions(**positive_emotions, negative_emotions, to_modify, percentage, increase=True)**
       - Entrada:
           positive_emotions (dict): Diccionario de emociones positivas.
           negative_emotions (dict): Diccionario de emociones negativas.
@@ -36,7 +37,7 @@
       - Salida: Ninguna.
       - Descripción: Modifica las emociones positivas y negativas según el porcentaje especificado.
   
-  **find_extremes**(positive_emotions, negative_emotions)
+  **find_extremes(positive_emotions, negative_emotions)**
     - Entrada:
         positive_emotions (dict): Diccionario de emociones positivas.
         negative_emotions (dict): Diccionario de emociones negativas.

@@ -1,6 +1,6 @@
 # Desarrollo de un Toolkit con Computación Emocional Utilizando el Modelo Emocional de PANAS para la Detección y Análisis de Emociones
 
-Este proyecto es un toolkit desarrollado como trabajo de grado por Isabella Marín y Mónica Prado. Está diseñado en Python y desplegado en AWS Lambda, con el objetivo de proporcionar una herramienta para la detección y análisis de emociones utilizando el modelo emocional de PANAS (Positive and Negative Affect Schedule) de Watson y Tellegen (1985).
+Este proyecto es un toolkit desarrollado como trabajo de grado por Isabella Marín Gutierrez y Monica Alexandra Prado. Está diseñado en Python y desplegado en AWS Lambda, con el objetivo de proporcionar una herramienta para la detección y análisis de emociones utilizando el modelo emocional de PANAS (Positive and Negative Affect Schedule) de Watson y Tellegen (1985).
 
 ## Tabla de Contenidos
 

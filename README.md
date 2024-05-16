@@ -42,7 +42,7 @@ El modelo emocional de PANAS se utiliza para representar y analizar las emocione
     ```
 
 3. Despliega en AWS Lambda siguiendo las instrucciones de la [documentación de AWS](https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html).
-   <a href="https://www.ejemplo.com](https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html)" target="_blank">documentación de AWS</a>
+   <a href="https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html)" target="_blank">Documentación de AWS</a>
 
 
 ## Uso

@@ -84,6 +84,7 @@ Respuesta Esperada
 - normalize_emotions(emotions, target_min, target_max): Normaliza los valores de las emociones al rango especificado.
 change_emotions(positive_emotions, negative_emotions, to_modify, percentage): Cambia las emociones positivas o negativas según el porcentaje dado.
 
+Estas funciones se encuentran de manera detallada en https://sites.google.com/correounivalle.edu.co/toolkit-modelo-emocional-panas/toolkit-documentation
 ## Pruebas
 Las pruebas unitarias se encuentran en el directorio tests/. Utilizamos pytest para ejecutar las pruebas.
 

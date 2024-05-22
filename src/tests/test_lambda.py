@@ -16,7 +16,7 @@ def test_increase_emotion_and_find_extremes():
     negative_emotions = {'Hostil': 0.3}
     to_modify = ['Atento']
     percentage = 10
-    result = increase_emotion_and_find_extremes(positive_emotions, negative_emotions, to_modify, percentage)
+    result = increase_emotion(positive_emotions, negative_emotions, to_modify, percentage)
     assert result['modified_positive_emotions']['Atento'] == 0.55
     assert result['modified_negative_emotions']['Hostil'] == 0.3
 
@@ -25,7 +25,7 @@ def test_decrease_emotion_and_find_extremes():
     negative_emotions = {'Hostil': 0.3}
     to_modify = ['Atento']
     percentage = 10
-    result = decrease_emotion_and_find_extremes(positive_emotions, negative_emotions, to_modify, percentage)
+    result = decrease_emotion(positive_emotions, negative_emotions, to_modify, percentage)
     assert result['modified_positive_emotions']['Atento'] == 0.45
     assert result['modified_negative_emotions']['Hostil'] == 0.3
 
@@ -142,7 +142,7 @@ def test_percentage_calculation():
 @pytest.mark.parametrize("event, expected_status, expected_body", [
     (
         {
-            'function': 'increase_emotion_and_find_extremes',
+            'function': 'increase_emotion',
             'positive_emotions': {'Atento': 0.5},
             'negative_emotions': {'Hostil': 0.3},
             'to_modify': ['Atento'],
@@ -189,7 +189,7 @@ def test_percentage_calculation():
 
     (
         {
-            'function': 'decrease_emotion_and_find_extremes',
+            'function': 'decrease_emotion',
             'positive_emotions': {'Atento': 0.5},
             'negative_emotions': {'Hostil': 0.3},
             'to_modify': ['Atento'],

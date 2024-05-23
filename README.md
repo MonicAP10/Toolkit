@@ -56,7 +56,7 @@ Ejemplo de un evento para aumentar emociones y encontrar extremos:
 
 ```json
 {
-    "function": "increase_emotion_and_find_extremes",
+    "function": "increase_emotion",
     "positive_emotions": {"Entusiasta": 0.5},
     "negative_emotions": {"Hostil": 0.3},
     "to_modify": ["Entusiasta"],
@@ -79,8 +79,8 @@ Respuesta Esperada
 - validate_emotion_value(value): Valida que el valor de la emoción esté dentro del rango [-1, 1].
 - modify_emotions(positive_emotions, negative_emotions, to_modify, percentage, increase=True): Modifica los valores de las emociones según el porcentaje dado.
 - find_extremes(positive_emotions, negative_emotions): Encuentra la emoción predominante y la más baja.
-- increase_emotion_and_find_extremes(positive_emotions, negative_emotions, to_modify, percentage): Aumenta emociones y encuentra extremos.
-- decrease_emotion_and_find_extremes(positive_emotions, negative_emotions, to_modify, percentage): Disminuye emociones y encuentra extremos.
+- increase_emotion(positive_emotions, negative_emotions, to_modify, percentage): Aumenta emociones y encuentra extremos.
+- decrease_emotion(positive_emotions, negative_emotions, to_modify, percentage): Disminuye emociones y encuentra extremos.
 - normalize_emotions(emotions, target_min, target_max): Normaliza los valores de las emociones al rango especificado.
 change_emotions(positive_emotions, negative_emotions, to_modify, percentage): Cambia las emociones positivas o negativas según el porcentaje dado.
 
@@ -95,8 +95,8 @@ Para ejecutar las pruebas, utiliza el siguiente comando:
 ```
 Cobertura de Pruebas
 - validate_emotion_value: Verifica que los valores emocionales estén dentro del rango permitido.
-- increase_emotion_and_find_extremes: Aumenta las emociones y encuentra las emociones extremas.
-- decrease_emotion_and_find_extremes: Disminuye las emociones y encuentra las emociones extremas.
+- increase_emotions: Aumenta las emociones y encuentra las emociones extremas.
+- decrease_emotion: Disminuye las emociones y encuentra las emociones extremas.
 - normalize_emotions: Normaliza los valores emocionales al rango objetivo.
 - change_emotions: Cambia las emociones según el tipo y porcentaje especificado.
 - lambda_handler: Verifica la lógica de la función Lambda para distintos casos de uso.

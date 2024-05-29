@@ -76,7 +76,7 @@ Respuesta Esperada
 }
 ```
 ## Funciones
-- validate_emotion_value(value): Valida que el valor de la emoción esté dentro del rango [-1, 1].
+- validate_emotion_value(value): Valida que el valor de la emoción esté dentro del rango [-1.0, 1.0].
 - modify_emotions(positive_emotions, negative_emotions, to_modify, percentage, increase=True): Modifica los valores de las emociones según el porcentaje dado.
 - find_extremes(positive_emotions, negative_emotions): Encuentra la emoción predominante y la más baja.
 - increase_emotion(positive_emotions, negative_emotions, to_modify, percentage): Aumenta emociones y encuentra extremos.
